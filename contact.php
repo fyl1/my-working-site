@@ -1,5 +1,6 @@
 <?php
 
+
 $text = "<span style='color:red; font-size: 35px; line-height: 40px; magin: 10px;'>Error! Please try again.</span>";
 
 if(isset($_POST['submitcontact']))
@@ -9,8 +10,8 @@ if(isset($_POST['submitcontact']))
 	$message=$_POST['message'];
 	$subject=$_POST['subject'];
 
-	$to = "youremail@gmail.com";
-	$subject = "Zerotheme - Testing Contact Form";
+	$to = "http://andreydevweb.com.ua";
+	$subject = "andreydev - Testing Contact Form";
 	$message = " Name: " . $name ."\r\n Email: " . $email . "\r\n Message:\r\n" . $message;
 	 
 	$from = "Zerotheme dot com";
@@ -34,9 +35,9 @@ if(isset($_POST['submitcontact']))
     <!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>zPainting</title>
+	<title>andreydevweb</title>
 	<meta name="description" content="Free Responsive Html5 Css3 Templates | Zerotheme.com">
-	<meta name="author" content="https://www.zerotheme.com">
+	<meta name="author" content="http://andreydevweb.com.ua">
 	
     <!-- Mobile Specific Metas
 	================================================== -->
@@ -204,7 +205,7 @@ if(isset($_POST['submitcontact']))
 					</div>
 				</div>
 				<div class="copyright">
-					Copyright @ - Designed by <a href="https://www.zerotheme.com" title="free website templates">ZEROTHEME</a>
+					Copyright @ - Designed by <a http://andreydevweb.com.ua" title="free website templates">andreydevweb</a>
 				</div>
 			</div>
 		</footer>
